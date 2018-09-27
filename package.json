@@ -21,6 +21,7 @@
     "babelify": "8",
     "browserify": "^16.2.3",
     "electron": "^2.0.0",
+    "electron-reload": "^1.2.5",
     "watchify": "^3.11.0"
   },
   "dependencies": {

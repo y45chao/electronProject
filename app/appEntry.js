@@ -10,7 +10,7 @@ class AppEntry extends Component {
   render() {
     return (
       <div>
-        <a href="http://www.baidu.com">测试文件</a>
+        <a href="http://www.baidu.com">测试文件123</a>
       </div>
     );
   }
