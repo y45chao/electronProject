@@ -17,7 +17,7 @@
 
 `yarn add browserify --dev`
 
-`yarn add electron electron-packager electron-prebuilt electron-reload --dev`
+`yarn add electron electron-packager electron-reload --dev`
 
 `yarn add watchify --dev`
 
@@ -45,3 +45,13 @@
 
 `npm run watch`
 `npm start`
+
+## 添加 react 调试工具栏
+
+`yarn add electron-react-devtools --dev`
+
+然后从正在运行的 Electron 应用程序的开发人员工具的控制台选项卡中执行以下操作
+
+`require('electron-react-devtools').install()` --测试失败（报错无法显示节点，后面再测试 20180927）
+
+最后刷新页面

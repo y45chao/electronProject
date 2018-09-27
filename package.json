@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "watch": "watchify app/appEntry.js -t babelify -o public/js/bundle.js --debug --verbose",
-    "package": "electron-packager ./ Electronproject --overwrite --app-version=1.0.0 --platform=win32 --arch=all --out=../DemoApps --version=1.2.1 --icon=./public/img/app-icon.icns"
+    "package": "electron-packager . Electronproject --platform=win32 --arch=x64 --electron-version=3.0.1 --overwrite --ignore=node_modules --ignore=.gitignore"
   },
   "author": "y.c",
   "license": "ISC",
@@ -20,7 +20,8 @@
     "babel-preset-react": "^6.24.1",
     "babelify": "8",
     "browserify": "^16.2.3",
-    "electron": "^2.0.0",
+    "electron": "^3.0.1",
+    "electron-packager": "^12.1.2",
     "electron-reload": "^1.2.5",
     "watchify": "^3.11.0"
   },

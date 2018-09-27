@@ -1,7 +1,7 @@
 const { app, BrowserWindow } = require("electron");
 
-//加载自动更新
-require("electron-reload")(__dirname);
+// //加载自动更新
+// require("electron-reload")(__dirname);
 
 let mainWindow;
 
@@ -12,8 +12,8 @@ function createWindow() {
   // 加载index.html页面
   mainWindow.loadFile("index.html");
 
-  // 打开 开发工具条 DevTools.
-  mainWindow.webContents.openDevTools();
+  // // 打开 开发工具条 DevTools.
+  // mainWindow.webContents.openDevTools();
 
   // 监听窗口关闭事件
   mainWindow.on("closed", function() {
