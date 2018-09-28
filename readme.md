@@ -37,7 +37,6 @@
 在 app ready 事件中，创建了主窗口，并通过 BrowserWindow 的 loadURL 方法加载了本地目录下的 index.html 页面。在 app 的 window-all-closed 事件中，调用 app.quit 方法退出整个 App。
 
 另外我们看到通过引入 electron-reload 模块，让本地文件更新后，自动重新加载页面：
--- 加载自动更新
 
 `require("electron-reload")(__dirname);`
 
