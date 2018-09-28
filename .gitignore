@@ -54,4 +54,4 @@ fastlane/Preview.html
 fastlane/screenshots
 
 #vscode
-.vscode/
+#.vscode/
